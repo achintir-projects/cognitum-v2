@@ -40,6 +40,11 @@ import AlternativeDataIntegration from '@/components/AlternativeDataIntegration'
 import SystemValidation from '@/components/SystemValidation'
 import BrokerageConnectivity from '@/components/BrokerageConnectivity'
 import BacktestingEngine from '@/components/BacktestingEngine'
+import FeatureStoreLineage from '@/components/FeatureStoreLineage'
+import AdvancedModelPlatform from '@/components/AdvancedModelPlatform'
+import QuantumOptimization from '@/components/QuantumOptimization'
+import AdvancedRiskManagement from '@/components/AdvancedRiskManagement'
+import ExecutionStack from '@/components/ExecutionStack'
 
 interface DataSource {
   id: string
@@ -310,13 +315,17 @@ export default function TradingPlatform() {
 
         {/* Main Content */}
         <Tabs defaultValue="dashboard" className="space-y-4">
-          <TabsList className="grid w-full grid-cols-7">
+          <TabsList className="grid w-full grid-cols-12">
             <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
-            <TabsTrigger value="ooda">OODA Loop</TabsTrigger>
-            <TabsTrigger value="data-sources">Data Sources</TabsTrigger>
+            <TabsTrigger value="ooda">OODA</TabsTrigger>
+            <TabsTrigger value="data-sources">Data</TabsTrigger>
             <TabsTrigger value="strategies">Strategies</TabsTrigger>
+            <TabsTrigger value="features">Features</TabsTrigger>
+            <TabsTrigger value="models">Models</TabsTrigger>
+            <TabsTrigger value="quantum">Quantum</TabsTrigger>
+            <TabsTrigger value="risk">Risk</TabsTrigger>
+            <TabsTrigger value="execution">Execution</TabsTrigger>
             <TabsTrigger value="brokerage">Brokerage</TabsTrigger>
-            <TabsTrigger value="signals">Signals</TabsTrigger>
             <TabsTrigger value="performance">Performance</TabsTrigger>
           </TabsList>
 
@@ -431,12 +440,28 @@ export default function TradingPlatform() {
             <AlternativeDataIntegration />
           </TabsContent>
 
-          <TabsContent value="signals" className="space-y-4">
-            <BacktestingEngine />
-          </TabsContent>
-
           <TabsContent value="strategies" className="space-y-4">
             <StrategyDiscoveryEngine />
+          </TabsContent>
+
+          <TabsContent value="features" className="space-y-4">
+            <FeatureStoreLineage />
+          </TabsContent>
+
+          <TabsContent value="models" className="space-y-4">
+            <AdvancedModelPlatform />
+          </TabsContent>
+
+          <TabsContent value="quantum" className="space-y-4">
+            <QuantumOptimization />
+          </TabsContent>
+
+          <TabsContent value="risk" className="space-y-4">
+            <AdvancedRiskManagement />
+          </TabsContent>
+
+          <TabsContent value="execution" className="space-y-4">
+            <ExecutionStack />
           </TabsContent>
 
           <TabsContent value="brokerage" className="space-y-4">
