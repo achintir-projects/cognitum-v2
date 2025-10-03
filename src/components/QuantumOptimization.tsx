@@ -128,7 +128,7 @@ export default function QuantumOptimization() {
           solveTime: 2.3,
           quality: 94.2,
           backend: 'quantum',
-          lastRun: '2024-01-15T10:30:00Z'
+          lastRun: '2025-10-03T10:30:00Z'
         },
         {
           id: 'prob-002',
@@ -142,7 +142,7 @@ export default function QuantumOptimization() {
           solveTime: 1.8,
           quality: 89.7,
           backend: 'digital_annealing',
-          lastRun: '2024-01-15T10:25:00Z'
+          lastRun: '2025-10-03T10:25:00Z'
         },
         {
           id: 'prob-003',
@@ -156,7 +156,7 @@ export default function QuantumOptimization() {
           solveTime: 5.2,
           quality: 91.5,
           backend: 'hybrid',
-          lastRun: '2024-01-15T10:20:00Z'
+          lastRun: '2025-10-03T10:20:00Z'
         },
         {
           id: 'prob-004',
@@ -170,7 +170,7 @@ export default function QuantumOptimization() {
           solveTime: 3.1,
           quality: 96.8,
           backend: 'quantum_inspired',
-          lastRun: '2024-01-15T10:15:00Z'
+          lastRun: '2025-10-03T10:15:00Z'
         }
       ]
 
@@ -291,7 +291,7 @@ export default function QuantumOptimization() {
           id: 'res-001',
           problemId: 'prob-001',
           solver: 'IBM Quantum',
-          timestamp: '2024-01-15T10:30:00Z',
+          timestamp: '2025-10-03T10:30:00Z',
           solution: [0.15, 0.12, 0.08, 0.18, 0.22, 0.25, 0.0, 0.0, 0.0, 0.0],
           objectiveValue: 0.085,
           constraints: {
@@ -312,7 +312,7 @@ export default function QuantumOptimization() {
           id: 'res-002',
           problemId: 'prob-002',
           solver: 'D-Wave Digital Annealer',
-          timestamp: '2024-01-15T10:25:00Z',
+          timestamp: '2025-10-03T10:25:00Z',
           solution: [0.10, 0.15, 0.20, 0.18, 0.12, 0.08, 0.17, 0.0, 0.0, 0.0],
           objectiveValue: 0.067,
           constraints: {

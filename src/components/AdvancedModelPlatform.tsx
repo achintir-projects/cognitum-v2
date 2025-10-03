@@ -117,7 +117,7 @@ export default function AdvancedModelPlatform() {
           latency: 12,
           throughput: 85000,
           errorRate: 0.02,
-          lastRun: '2024-01-15T10:30:00Z',
+          lastRun: '2025-10-03T10:30:00Z',
           description: 'Real-time market data processing and feature extraction'
         },
         {
@@ -128,7 +128,7 @@ export default function AdvancedModelPlatform() {
           latency: 8,
           throughput: 75000,
           errorRate: 0.01,
-          lastRun: '2024-01-15T10:30:00Z',
+          lastRun: '2025-10-03T10:30:00Z',
           description: 'Technical analysis indicators and momentum features'
         },
         {
@@ -139,7 +139,7 @@ export default function AdvancedModelPlatform() {
           latency: 45,
           throughput: 12000,
           errorRate: 0.15,
-          lastRun: '2024-01-15T10:30:00Z',
+          lastRun: '2025-10-03T10:30:00Z',
           description: 'Deep learning model for price prediction'
         },
         {
@@ -150,7 +150,7 @@ export default function AdvancedModelPlatform() {
           latency: 15,
           throughput: 10000,
           errorRate: 0.08,
-          lastRun: '2024-01-15T10:30:00Z',
+          lastRun: '2025-10-03T10:30:00Z',
           description: 'Trading signal generation and confidence scoring'
         },
         {
@@ -161,7 +161,7 @@ export default function AdvancedModelPlatform() {
           latency: 22,
           throughput: 8000,
           errorRate: 0.05,
-          lastRun: '2024-01-15T10:30:00Z',
+          lastRun: '2025-10-03T10:30:00Z',
           description: 'Risk-aware portfolio allocation and position sizing'
         },
         {
@@ -172,7 +172,7 @@ export default function AdvancedModelPlatform() {
           latency: 35,
           throughput: 5000,
           errorRate: 0.12,
-          lastRun: '2024-01-15T10:29:00Z',
+          lastRun: '2025-10-03T10:29:00Z',
           description: 'Order routing and execution management'
         }
       ]
@@ -204,7 +204,7 @@ export default function AdvancedModelPlatform() {
             leverage: 2.1,
             concentration: 15.6
           },
-          deployedAt: '2024-01-10T08:00:00Z',
+          deployedAt: '2025-09-28T08:00:00Z',
           nextReview: '2024-02-10T08:00:00Z'
         },
         {
@@ -260,8 +260,8 @@ export default function AdvancedModelPlatform() {
             leverage: 2.8,
             concentration: 18.9
           },
-          deployedAt: '2024-01-12T10:15:00Z',
-          nextReview: '2024-01-19T10:15:00Z'
+          deployedAt: '2025-09-30T10:15:00Z',
+          nextReview: '2025-10-10T10:15:00Z'
         }
       ]
 
@@ -272,35 +272,35 @@ export default function AdvancedModelPlatform() {
           status: 'passed',
           score: 94.2,
           description: 'Time-series cross-validation with rolling windows',
-          lastRun: '2024-01-15T09:00:00Z'
+          lastRun: '2025-10-03T09:00:00Z'
         },
         {
           name: 'Purified Cross-Validation',
           status: 'passed',
           score: 91.8,
           description: 'CV with embargo periods to prevent leakage',
-          lastRun: '2024-01-15T09:15:00Z'
+          lastRun: '2025-10-03T09:15:00Z'
         },
         {
           name: 'Deflated Sharpe Ratio',
           status: 'passed',
           score: 88.5,
           description: 'Sharpe ratio adjusted for multiple testing',
-          lastRun: '2024-01-15T09:30:00Z'
+          lastRun: '2025-10-03T09:30:00Z'
         },
         {
           name: 'White\'s Reality Check',
           status: 'passed',
           score: 92.1,
           description: 'Test for data snooping bias',
-          lastRun: '2024-01-15T09:45:00Z'
+          lastRun: '2025-10-03T09:45:00Z'
         },
         {
           name: 'Hansen SPA Test',
           status: 'failed',
           score: 76.3,
           description: 'Superior Predictive Ability test',
-          lastRun: '2024-01-15T10:00:00Z'
+          lastRun: '2025-10-03T10:00:00Z'
         }
       ]
 

@@ -150,7 +150,7 @@ export default function ExecutionStack() {
           status: 'working',
           filledQuantity: 3500,
           avgPrice: 175.48,
-          timestamp: '2024-01-15T10:30:00Z',
+          timestamp: '2025-10-03T10:30:00Z',
           venue: 'NASDAQ',
           algorithm: 'TWAP_V2',
           urgency: 'medium'
@@ -166,7 +166,7 @@ export default function ExecutionStack() {
           status: 'filled',
           filledQuantity: 5000,
           avgPrice: 410.27,
-          timestamp: '2024-01-15T10:25:00Z',
+          timestamp: '2025-10-03T10:25:00Z',
           venue: 'NYSE',
           algorithm: 'VWAP_ADAPTIVE',
           urgency: 'low'
@@ -181,7 +181,7 @@ export default function ExecutionStack() {
           status: 'pending',
           filledQuantity: 0,
           avgPrice: 0,
-          timestamp: '2024-01-15T10:35:00Z',
+          timestamp: '2025-10-03T10:35:00Z',
           venue: 'ARCA',
           urgency: 'high'
         },
@@ -195,7 +195,7 @@ export default function ExecutionStack() {
           status: 'working',
           filledQuantity: 1200,
           avgPrice: 238.91,
-          timestamp: '2024-01-15T10:20:00Z',
+          timestamp: '2025-10-03T10:20:00Z',
           venue: 'DARK_POOL_1',
           algorithm: 'POV_DYNAMIC',
           urgency: 'medium'
@@ -286,7 +286,7 @@ export default function ExecutionStack() {
             maxSize: 10000,
             timeWindow: 300
           },
-          lastOptimized: '2024-01-14T16:00:00Z'
+          lastOptimized: '2025-10-02T16:00:00Z'
         },
         {
           id: 'algo-002',
@@ -306,7 +306,7 @@ export default function ExecutionStack() {
             maxSize: 15000,
             timeWindow: 240
           },
-          lastOptimized: '2024-01-14T18:30:00Z'
+          lastOptimized: '2025-10-02T18:30:00Z'
         },
         {
           id: 'algo-003',
@@ -326,7 +326,7 @@ export default function ExecutionStack() {
             maxSize: 20000,
             timeWindow: 360
           },
-          lastOptimized: '2024-01-15T08:00:00Z'
+          lastOptimized: '2025-10-03T08:00:00Z'
         }
       ]
 
@@ -370,7 +370,7 @@ export default function ExecutionStack() {
       const mockOrderBooks: OrderBook[] = [
         {
           symbol: 'AAPL',
-          timestamp: '2024-01-15T10:30:00Z',
+          timestamp: '2025-10-03T10:30:00Z',
           bid: [
             { price: 175.48, quantity: 1500, orders: 12, isOwn: false },
             { price: 175.47, quantity: 2300, orders: 18, isOwn: false },

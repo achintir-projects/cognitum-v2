@@ -81,7 +81,7 @@ export default function FeatureStoreLineage() {
           name: 'market_ohlc_features',
           description: 'OHLCV technical indicators and price features',
           status: 'active',
-          lastUpdated: '2024-01-15T10:30:00Z',
+          lastUpdated: '2025-10-03T10:30:00Z',
           dataFreshness: 98,
           version: 'v3.2.1',
           rowCount: 1250000,
@@ -94,7 +94,7 @@ export default function FeatureStoreLineage() {
           name: 'sentiment_features',
           description: 'Social media sentiment and news analysis features',
           status: 'active',
-          lastUpdated: '2024-01-15T10:25:00Z',
+          lastUpdated: '2025-10-03T10:25:00Z',
           dataFreshness: 95,
           version: 'v2.1.4',
           rowCount: 890000,
@@ -107,7 +107,7 @@ export default function FeatureStoreLineage() {
           name: 'alternative_data_features',
           description: 'Satellite imagery and supply chain alternative data',
           status: 'pending',
-          lastUpdated: '2024-01-15T09:45:00Z',
+          lastUpdated: '2025-10-03T09:45:00Z',
           dataFreshness: 87,
           version: 'v1.5.2',
           rowCount: 450000,
@@ -120,7 +120,7 @@ export default function FeatureStoreLineage() {
           name: 'risk_features',
           description: 'Risk metrics and volatility features',
           status: 'active',
-          lastUpdated: '2024-01-15T10:35:00Z',
+          lastUpdated: '2025-10-03T10:35:00Z',
           dataFreshness: 99,
           version: 'v4.0.1',
           rowCount: 2100000,
@@ -140,7 +140,7 @@ export default function FeatureStoreLineage() {
           backtestConfig: 'config_2024_01',
           deploymentBundle: 'bundle_789',
           liveRunId: 'run_20240115_001',
-          timestamp: '2024-01-15T10:00:00Z',
+          timestamp: '2025-10-03T10:00:00Z',
           status: 'verified'
         },
         {
@@ -151,7 +151,7 @@ export default function FeatureStoreLineage() {
           backtestConfig: 'config_2024_01',
           deploymentBundle: 'bundle_790',
           liveRunId: 'run_20240115_002',
-          timestamp: '2024-01-15T10:05:00Z',
+          timestamp: '2025-10-03T10:05:00Z',
           status: 'verified'
         },
         {
@@ -162,7 +162,7 @@ export default function FeatureStoreLineage() {
           backtestConfig: 'config_2024_01',
           deploymentBundle: 'bundle_791',
           liveRunId: 'run_20240115_003',
-          timestamp: '2024-01-15T09:50:00Z',
+          timestamp: '2025-10-03T09:50:00Z',
           status: 'pending'
         }
       ]
@@ -175,7 +175,7 @@ export default function FeatureStoreLineage() {
           version: 'v2.1.0',
           status: 'active',
           schema: 'OHLCV + technical indicators',
-          lastValidated: '2024-01-15T10:00:00Z',
+          lastValidated: '2025-10-03T10:00:00Z',
           validationScore: 98.5,
           evolutionHistory: 12
         },
@@ -185,7 +185,7 @@ export default function FeatureStoreLineage() {
           version: 'v1.8.0',
           status: 'active',
           schema: 'Sentiment scores + classification',
-          lastValidated: '2024-01-15T09:30:00Z',
+          lastValidated: '2025-10-03T09:30:00Z',
           validationScore: 94.2,
           evolutionHistory: 8
         },
@@ -195,7 +195,7 @@ export default function FeatureStoreLineage() {
           version: 'v1.2.0',
           status: 'draft',
           schema: 'Satellite + supply chain data',
-          lastValidated: '2024-01-14T16:45:00Z',
+          lastValidated: '2025-10-02T16:45:00Z',
           validationScore: 87.8,
           evolutionHistory: 5
         }

@@ -227,7 +227,7 @@ export default function AdvancedRiskManagement() {
           currentValue: 52000000,
           threshold: 50000000,
           action: 'reduce',
-          lastTriggered: '2024-01-15T10:25:00Z',
+          lastTriggered: '2025-10-03T10:25:00Z',
           autoRecovery: true,
           recoveryTime: 600
         },
@@ -268,7 +268,7 @@ export default function AdvancedRiskManagement() {
       const mockRiskEvents: RiskEvent[] = [
         {
           id: 'event-001',
-          timestamp: '2024-01-15T10:25:00Z',
+          timestamp: '2025-10-03T10:25:00Z',
           type: 'limit_breach',
           severity: 'medium',
           description: 'Notional cap exceeded by $2M',
@@ -279,7 +279,7 @@ export default function AdvancedRiskManagement() {
         },
         {
           id: 'event-002',
-          timestamp: '2024-01-15T10:20:00Z',
+          timestamp: '2025-10-03T10:20:00Z',
           type: 'drift_detected',
           severity: 'low',
           description: 'Feature drift detected in sentiment model',
@@ -287,11 +287,11 @@ export default function AdvancedRiskManagement() {
           scopeId: 'sentiment_arbitrage',
           action: 'alert',
           resolved: true,
-          resolvedAt: '2024-01-15T10:22:00Z'
+          resolvedAt: '2025-10-03T10:22:00Z'
         },
         {
           id: 'event-003',
-          timestamp: '2024-01-15T10:15:00Z',
+          timestamp: '2025-10-03T10:15:00Z',
           type: 'latency_spike',
           severity: 'medium',
           description: 'Order latency spike to 150ms',
@@ -299,11 +299,11 @@ export default function AdvancedRiskManagement() {
           scopeId: 'execution_engine',
           action: 'pause',
           resolved: true,
-          resolvedAt: '2024-01-15T10:17:00Z'
+          resolvedAt: '2025-10-03T10:17:00Z'
         },
         {
           id: 'event-004',
-          timestamp: '2024-01-15T10:10:00Z',
+          timestamp: '2025-10-03T10:10:00Z',
           type: 'circuit_breaker',
           severity: 'high',
           description: 'Fat finger protection triggered',
@@ -311,7 +311,7 @@ export default function AdvancedRiskManagement() {
           scopeId: 'AAPL',
           action: 'pause',
           resolved: true,
-          resolvedAt: '2024-01-15T10:12:00Z'
+          resolvedAt: '2025-10-03T10:12:00Z'
         }
       ]
 
@@ -334,7 +334,7 @@ export default function AdvancedRiskManagement() {
             var: 3500000,
             expectedShortfall: 5000000
           },
-          timestamp: '2024-01-15T09:00:00Z'
+          timestamp: '2025-10-03T09:00:00Z'
         },
         {
           id: 'stress-002',
@@ -353,7 +353,7 @@ export default function AdvancedRiskManagement() {
             var: 3500000,
             expectedShortfall: 5000000
           },
-          timestamp: '2024-01-15T08:30:00Z'
+          timestamp: '2025-10-03T08:30:00Z'
         },
         {
           id: 'stress-003',
@@ -372,7 +372,7 @@ export default function AdvancedRiskManagement() {
             var: 3500000,
             expectedShortfall: 5000000
           },
-          timestamp: '2024-01-15T10:00:00Z'
+          timestamp: '2025-10-03T10:00:00Z'
         }
       ]
 
@@ -382,7 +382,7 @@ export default function AdvancedRiskManagement() {
           id: 'twin-001',
           name: 'Portfolio Twin',
           status: 'active',
-          lastSync: '2024-01-15T10:30:00Z',
+          lastSync: '2025-10-03T10:30:00Z',
           accuracy: 99.2,
           latency: 12,
           scenarios: 156,
@@ -392,7 +392,7 @@ export default function AdvancedRiskManagement() {
           id: 'twin-002',
           name: 'Risk Engine Twin',
           status: 'active',
-          lastSync: '2024-01-15T10:29:00Z',
+          lastSync: '2025-10-03T10:29:00Z',
           accuracy: 97.8,
           latency: 8,
           scenarios: 89,
@@ -402,7 +402,7 @@ export default function AdvancedRiskManagement() {
           id: 'twin-003',
           name: 'Execution Twin',
           status: 'syncing',
-          lastSync: '2024-01-15T10:28:00Z',
+          lastSync: '2025-10-03T10:28:00Z',
           accuracy: 95.5,
           latency: 15,
           scenarios: 234,
