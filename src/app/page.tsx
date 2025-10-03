@@ -45,6 +45,12 @@ import AdvancedModelPlatform from '@/components/AdvancedModelPlatform'
 import QuantumOptimization from '@/components/QuantumOptimization'
 import AdvancedRiskManagement from '@/components/AdvancedRiskManagement'
 import ExecutionStack from '@/components/ExecutionStack'
+import TEEAttestedTrading from '@/components/TEEAttestedTrading'
+import ZKProofSystem from '@/components/ZKProofSystem'
+import TamperProofLineage from '@/components/TamperProofLineage'
+import FormalSpecifications from '@/components/FormalSpecifications'
+import OptionsVolatilityStack from '@/components/OptionsVolatilityStack'
+import TopologicalDataAnalysis from '@/components/TopologicalDataAnalysis'
 
 interface DataSource {
   id: string
@@ -315,7 +321,7 @@ export default function TradingPlatform() {
 
         {/* Main Content */}
         <Tabs defaultValue="dashboard" className="space-y-4">
-          <TabsList className="grid w-full grid-cols-12">
+          <TabsList className="grid w-full grid-cols-18">
             <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
             <TabsTrigger value="ooda">OODA</TabsTrigger>
             <TabsTrigger value="data-sources">Data</TabsTrigger>
@@ -327,6 +333,12 @@ export default function TradingPlatform() {
             <TabsTrigger value="execution">Execution</TabsTrigger>
             <TabsTrigger value="brokerage">Brokerage</TabsTrigger>
             <TabsTrigger value="performance">Performance</TabsTrigger>
+            <TabsTrigger value="tee">TEE</TabsTrigger>
+            <TabsTrigger value="zk">ZK Proofs</TabsTrigger>
+            <TabsTrigger value="lineage">Lineage</TabsTrigger>
+            <TabsTrigger value="formal">Formal</TabsTrigger>
+            <TabsTrigger value="options">Options</TabsTrigger>
+            <TabsTrigger value="tda">TDA</TabsTrigger>
           </TabsList>
 
           <TabsContent value="dashboard" className="space-y-4">
@@ -470,6 +482,30 @@ export default function TradingPlatform() {
 
           <TabsContent value="performance" className="space-y-4">
             <SystemValidation />
+          </TabsContent>
+
+          <TabsContent value="tee" className="space-y-4">
+            <TEEAttestedTrading />
+          </TabsContent>
+
+          <TabsContent value="zk" className="space-y-4">
+            <ZKProofSystem />
+          </TabsContent>
+
+          <TabsContent value="lineage" className="space-y-4">
+            <TamperProofLineage />
+          </TabsContent>
+
+          <TabsContent value="formal" className="space-y-4">
+            <FormalSpecifications />
+          </TabsContent>
+
+          <TabsContent value="options" className="space-y-4">
+            <OptionsVolatilityStack />
+          </TabsContent>
+
+          <TabsContent value="tda" className="space-y-4">
+            <TopologicalDataAnalysis />
           </TabsContent>
         </Tabs>
       </div>
